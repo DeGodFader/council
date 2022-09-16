@@ -50,6 +50,7 @@
                       </td>
                       <td class="align-middle text-center text-sm">
                         <span class="badge badge-sm bg-gradient-success">Online</span>
+                        <a href="profile.php?id=<?php echo $User->ID?>"><span class="bg-gradient-light badge" style="color:#212529">View profile</span></a>
                       </td>
                       <td class="align-middle text-center justify-content-center">
                         <a href="users.php<?php if(!isset($_GET["d_user"])){?>?d_user=<?php echo $User->ID;}?>" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user">

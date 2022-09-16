@@ -34,7 +34,7 @@
     <?php if($_GET["M"]==1){?>
         <h2 style="font-weight:bold">Need To Know</h2>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime laudantium cum quam molestiae ipsum. Animi culpa alias iusto expedita? Illo minima molestiae reiciendis delectus commodi nihil, autem quis voluptas quibusdam! <br>
-        <a href="Forms.php?Purp=Death&&M=3&&Service=Birth,Weddings,DeathandFunerals&&Page=Request a Certificate" class="bth" style="color:royalblue">Click to go to form</a>  
+        <?php if(isset($_SESSION["ID"])){?>        <a href="Forms.php?Purp=Death&&M=3&&Service=Birth,Weddings,DeathandFunerals&&Page=Request a Certificate" class="bth" style="color:royalblue">Click to go to form</a><?php }else{?><a href="../../Login.php" class="bth">Please LogIn</a><?php }?>
     <?php }?>
 
 

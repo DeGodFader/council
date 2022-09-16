@@ -1,4 +1,13 @@
-<?php include("includes/header2.php"); include("includes/navbar.php")?>
+<?php include("includes/header2.php"); ?>
+<body>
+        <div class="container-fluid">
+            <!-- Header Start -->
+            <div class="header">
+                <div class="container-fluid">
+                    <?php include("includes/navbar.php")?>
+                </div>
+            </div>
+            <!-- Header End -->
 
 
 
@@ -31,6 +40,17 @@
   </div>
 </div>
 
+
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown button
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+  </div>
+</div>
 
 
 

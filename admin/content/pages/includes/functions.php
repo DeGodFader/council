@@ -85,4 +85,41 @@
         }
     }
 
+    if(isset($_GET["Del_form"])){
+        $ID=$_GET["ID"];
+        if(isset($_GET["Del_form"])=="Yes"){
+            echo $ID;
+            $Fr->Delete($ID);
+            $sess->redir("../forms.php");
+        }else{
+            echo "Shit";
+            $sess->redir("../forms.php");  
+        }
+    }
+
+    if(isset($_POST["Go"])){
+        $Pr->Edit("Birth",$_POST["Birth"]);
+        $Pr->Edit("Death",$_POST["Death"]);
+        $Pr->Edit("Wedding", $_POST["Wed"]);
+        $sess->redir("../Forms_Settings.php");
+    }
+    
+    if(isset($_POST["GoT"])){
+        $Pr->Edit("National",$_POST["N"]);
+        $Pr->Edit("Continental",$_POST["C"]);
+        $Pr->Edit("Intercontinental", $_POST["IC"]);
+        $sess->redir("../Forms_Settings.php");
+    }
+
+    if(isset($_POST["GoL"])){
+        $Pr->Edit("Top Level",$_POST["TL"]);
+        $Pr->Edit("Medium Level",$_POST["ML"]);
+        $Pr->Edit("Low Level", $_POST["LL"]);
+        $sess->redir("../Forms_Settings.php");
+    }
+
+    if(isset($_POST["Cancel"])){
+        $sess->redir("../Forms_Settings.php");
+    }
+
 ?>

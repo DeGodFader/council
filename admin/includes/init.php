@@ -16,4 +16,5 @@
     require_once("class/Forms.php");
     require_once("class/KYC.php");
     require_once("class/Online_Courses.php");
+    require_once("class/Pricing.php");
 ?>

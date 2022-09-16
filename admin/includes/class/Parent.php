@@ -19,6 +19,7 @@
                     $Ob->$K=$V;
                 }
             }
+            // print_r($Ob);
             return $Ob;
         }
     
@@ -31,7 +32,9 @@
             global $db;
             $q="SELECT * FROM " . $this->table ." WHERE ID=$ID";
             $D=(mysqli_fetch_assoc($db->query($q)));
+            if(!empty($D)){
             return($this->init($D));
+            }
         } 
 
         function Search($term, $Loc){
@@ -60,7 +63,9 @@
             $val=str_replace(" ","", $val);
             $q="SELECT * FROM " . $this->table ." WHERE " . $Col . "='$val'";
             $D=(mysqli_fetch_assoc($db->query($q)));
+            if(!empty($D)){
             return($this->init($D)); 
+            }
         }
 
         function Delete($Cat){

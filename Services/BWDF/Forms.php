@@ -97,7 +97,7 @@
                                                     <div>&ensp; Is this Your Certificate?</div>
                                                 </h3>
                                                 <div class="form-group row" style="padding-left:100px ;">
-                                                    <select name="Choice" id="" class="col-md-6" style="height:40px">
+                                                    <select name="Certificate_Owner" id="" class="col-md-6" style="height:40px">
                                                         <option value="" style="background-color:#FFD662">~~Please Select~~</option>
                                                         <hr>
                                                         <option value="Yes" style="background-color:#FFD662">Yes</option>
@@ -296,7 +296,7 @@
                                                         Nobis libero odio tempora ipsum, soluta doloremque possimus? Sunt animi suscipit maxime. Voluptate explicabo 
                                                         enim omnis ea.
                                                         <div class="justify-content-right col-12">
-                                                            <span>Price:###</span>
+                                                            <span>Price:<?php echo(($Pr->S_Par(9))->Amount)?> FCFA</span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -308,7 +308,7 @@
                                                         Nobis libero odio tempora ipsum, soluta doloremque possimus? Sunt animi suscipit maxime. Voluptate explicabo 
                                                         enim omnis ea.
                                                         <div class="justify-content-right col-12">
-                                                            <span>Price:###</span>
+                                                            <span>Price:<?php echo(($Pr->S_Par(8))->Amount)?> FCFA</span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -320,12 +320,12 @@
                                                         Nobis libero odio tempora ipsum, soluta doloremque possimus? Sunt animi suscipit maxime. Voluptate explicabo 
                                                         enim omnis ea.
                                                         <div class="justify-content-right col-12">
-                                                            <span>Price:###</span>
+                                                            <span>Price:<?php echo(($Pr->S_Par(7))->Amount)?> FCFA</span><br>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="form-group row col-12" style="padding-left:100px ;">
-                                                    <select name="choice2" id="" class="col-md-6" style="height:40px">
+                                                    <select name="Transport_Level" id="" class="col-md-6" style="height:40px">
                                                         <option value="">~~Select Transport Means~~</option>
                                                         <option value="Top Level">Top Level</option>
                                                         <option value="Medium Level">Medium Level</option>
@@ -340,9 +340,30 @@
                                     </div>
 
                                     <div class="service-item">
+                                            <div class="container" style="background-color:#ced4da ;">
+                                                <h3 class="row">
+                                                    <div style="background-color: #FFD662; width:30px; border-radius:5px;">8</div>
+                                                    <div>&ensp; Is this Your Certificate?</div>
+                                                </h3>
+                                                <div class="form-group row" style="padding-left:100px ;">
+                                                    <select name="Certificate_Type" id="" class="col-md-6" style="height:40px">
+                                                        <option value="" style="background-color:#FFD662">~~Please Select~~</option>
+                                                        <hr>
+                                                        <option value="Hard Copy" style="background-color:#FFD662">Hard Copy</option>
+                                                        <hr>
+                                                        <option value="Soft Copy" style="background-color:#FFD662">Soft Copy</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group">
+                                                    .
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    <div class="service-item">
                                         <div class="container" style="background-color:#ced4da ;">
                                             <h3 class="row">
-                                                <div style="background-color: #FFD662; width:30px; border-radius:5px;">4</div>
+                                                <div style="background-color: #FFD662; width:30px; border-radius:5px;">9</div>
                                                 <div>&ensp; Delivery Details</div>
                                             </h3>
                                             <div class="form-group col-md-9">
