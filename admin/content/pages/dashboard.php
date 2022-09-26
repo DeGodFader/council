@@ -98,7 +98,7 @@
                   <i class="material-icons opacity-10">diversity_3</i>
                 </div>
                 <div class="text-end pt-1">
-                  <p class="text-md mb-0 text-capitalize">Council Administrators</p>
+                  <p class="text-md mb-0 text-capitalize">Council <br> Administrators</p>
                   <?php $size=sizeof($Pers->S_All())?>
                   <h4 class="mb-0"><?php echo $size?></h4>
                 </div>

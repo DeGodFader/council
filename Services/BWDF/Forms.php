@@ -337,28 +337,30 @@
                                                 .                              
                                             </div>
                                         </div>
-                                    </div>
+                                </div>
 
+                                <?php if($_GET["Purp"]!="Death"){?>
                                     <div class="service-item">
-                                            <div class="container" style="background-color:#ced4da ;">
-                                                <h3 class="row">
-                                                    <div style="background-color: #FFD662; width:30px; border-radius:5px;">8</div>
-                                                    <div>&ensp; Is this Your Certificate?</div>
-                                                </h3>
-                                                <div class="form-group row" style="padding-left:100px ;">
-                                                    <select name="Certificate_Type" id="" class="col-md-6" style="height:40px">
-                                                        <option value="" style="background-color:#FFD662">~~Please Select~~</option>
-                                                        <hr>
-                                                        <option value="Hard Copy" style="background-color:#FFD662">Hard Copy</option>
-                                                        <hr>
-                                                        <option value="Soft Copy" style="background-color:#FFD662">Soft Copy</option>
-                                                    </select>
-                                                </div>
-                                                <div class="form-group">
-                                                    .
-                                                </div>
+                                        <div class="container" style="background-color:#ced4da ;">
+                                            <h3 class="row">
+                                                <div style="background-color: #FFD662; width:30px; border-radius:5px;">8</div>
+                                                <div>&ensp; Is this Your Certificate?</div>
+                                            </h3>
+                                            <div class="form-group row" style="padding-left:100px ;">
+                                                <select name="Certificate_Type" id="" class="col-md-6" style="height:40px">
+                                                    <option value="" style="background-color:#FFD662">~~Please Select~~</option>
+                                                    <hr>
+                                                    <option value="Hard Copy" style="background-color:#FFD662">Hard Copy</option>
+                                                    <hr>
+                                                    <option value="Soft Copy" style="background-color:#FFD662">Soft Copy</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                .
                                             </div>
                                         </div>
+                                    </div>    
+                                <?php }?>
 
                                     <div class="service-item">
                                         <div class="container" style="background-color:#ced4da ;">

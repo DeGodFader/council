@@ -9,7 +9,7 @@
                 <div class="header-top row align-items-center">
                     <div class="col-lg-3">
                         <div class="brand">
-                            <a href="index.php">
+                            <a href="../../index.php">
                                 # Council
                                 <!-- <img src="img/logo.png" alt="Logo"> -->
                             </a>
@@ -43,10 +43,10 @@
                                 <div class="navbar-nav ml-auto">
                                     <a href="../../index.php" class="nav-item nav-link <?php if(basename($_SERVER["PHP_SELF"])=="index.php")echo "active"?>">Home</a>
                                     <a href="../../about.php" class="nav-item nav-link <?php if(basename($_SERVER["PHP_SELF"])=="about.php")echo "active"?>">About</a>
-                                    <a href="se../../rvice.php" class="nav-item nav-link <?php if(basename($_SERVER["PHP_SELF"])=="service.php")echo "active"?>">Service</a>
-                                    <a href="port../../folio.php" class="nav-item nav-link <?php if(basename($_SERVER["PHP_SELF"])=="portfolio.php")echo "active"?>">Project</a>
-                                    <a href="s../../ingle.php" class="nav-item nav-link <?php if(basename($_SERVER["PHP_SELF"])=="single.php")echo "active"?>">Single</a>
-                                    <a href="co../../ntact.php" class="nav-item nav-link <?php if(basename($_SERVER["PHP_SELF"])=="contact.php")echo "active"?>">Contact</a>
+                                    <a href="../../service.php" class="nav-item nav-link <?php if(basename($_SERVER["PHP_SELF"])=="service.php")echo "active"?>">Service</a>
+                                    <a href="../../portfolio.php" class="nav-item nav-link <?php if(basename($_SERVER["PHP_SELF"])=="portfolio.php")echo "active"?>">Project</a>
+                                    <a href="../../single.php" class="nav-item nav-link <?php if(basename($_SERVER["PHP_SELF"])=="single.php")echo "active"?>">Single</a>
+                                    <a href="../../contact.php" class="nav-item nav-link <?php if(basename($_SERVER["PHP_SELF"])=="contact.php")echo "active"?>">Contact</a>
                                     <?php if(!isset($_SESSION["ID"])){?>
                                     <?php if(basename($_SERVER["PHP_SELF"])!="Login.php"){?><a href="../../Login.php" class="btn ">SignIn</a><?php }?>
                                     <?php if(basename($_SERVER["PHP_SELF"])!="Register.php"){?><a href="../../Register.php" class="btn">SignUp</a><?php }?>

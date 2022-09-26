@@ -162,9 +162,9 @@
                       <td>
                         <p class="text-xs font-weight-bold mb-0"><?php echo $F->Form_Cat?></p>
                         <p class="text-xs text-secondary mb-0"><?php echo $F->Type?></p>
+                        <span class="text-sm">Transaction ID</span> <h6 class="mb-0 text-xs"><?php echo $F->Transaction_ID?></h6>
                       </td>
-                      <td class="align
-                      <span class="text-sm">Transaction ID</span> <h6 class="mb-0 text-xs"><?php echo $F->Transaction_ID?></h6>-middle text-left text-sm">
+                      <td class="align-middle text-left text-sm">
                       <p class="text-xs font-weight-bold mb-0"><?php echo $F->Reason?></p>
 
                     </td>
@@ -175,7 +175,7 @@
                             Place of Birth:<h6 class="mb-0 text-sm"><?php echo $F->Place_of_B?></h6>
                             Mother Name: <h6 class="mb-0 text-sm"><?php echo $F->Mother_Name?></h6>
                             Father Name: <h6 class="mb-0 text-sm"><?php echo $F->Father_Name?></h6>
-                            Date Issued: <h6 class="mb-0 text-sm"><?php echo $F->Date_Issued?></h6
+                            Date Issued: <h6 class="mb-0 text-sm"><?php echo $F->Date_Issued?></h6>
                         </div>
                       <?php }elseif($F->Form_Cat=="Death"){?>
                         <div class="d-flex flex-column justify-content-center">
@@ -284,7 +284,7 @@
                             Place of Birth:<h6 class="mb-0 text-sm"><?php echo $F->Place_of_B?></h6>
                             Mother Name: <h6 class="mb-0 text-sm"><?php echo $F->Mother_Name?></h6>
                             Father Name: <h6 class="mb-0 text-sm"><?php echo $F->Father_Name?></h6>
-                            Date Issued: <h6 class="mb-0 text-sm"><?php echo $F->Date_Issued?></h6
+                            Date Issued: <h6 class="mb-0 text-sm"><?php echo $F->Date_Issued?></h6>
                         </div>
                       <?php }elseif($F->Form_Cat=="Death"){?>
                         <div class="d-flex flex-column justify-content-center">

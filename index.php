@@ -62,7 +62,7 @@
 
 
             <!-- FAQs Start -->
-            <div class="faqs">
+            <div class="faqs" id="faqs">
                 <div class="container-xl" style="max-width:1500px">
                     <div class="row">
                         <div class="col-md-5">
@@ -142,7 +142,7 @@
             </div>
             <!-- FAQs End -->
 
-
+    
             <!-- Testimonial Start -->
             <?php include("includes/testimonial.php")?>
             <!-- Testimonial End -->

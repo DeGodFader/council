@@ -20,21 +20,21 @@
                         <div class="col-md-6 col-lg-3">
                             <div class="footer-link">
                                 <h2>Useful Link</h2>
-                                <a href="">About Us</a>
+                                <a href="about.php">About Us</a>
                                 <a href="">Our Story</a>
-                                <a href="">Our Services</a>
-                                <a href="">Our Projects</a>
-                                <a href="">Contact Us</a>
+                                <a href="service.php">Our Services</a>
+                                <a href="portfolio.php">Our Projects</a>
+                                <a href="contact.php">Contact Us</a>
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-3">
                             <div class="footer-link">
                                 <h2>Useful Link</h2>
                                 <a href="">Our Clients</a>
-                                <a href="">Clients Review</a>
-                                <a href="">Ongoing Project</a>
+                                <a href="index.php#testimonia">Clients Review</a>
+                                <a href="portfolio.php?Com=1">Ongoing Project</a>
                                 <a href="">Customer Support</a>
-                                <a href="">FAQs</a>
+                                <a href="index.php#faqs">FAQs</a>
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-3">
@@ -54,8 +54,8 @@
                         <a href="">Terms of use</a>
                         <a href="">Privacy policy</a>
                         <a href="">Cookies</a>
-                        <a href="">Help & FQAs</a>
-                        <a href="">Contact us</a>
+                        <a href="index.php#faqs">Help & FQAs</a>
+                        <a href="contact.php">Contact us</a>
                     </div>
                 </div>
                 <div class="container copyright">
