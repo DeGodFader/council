@@ -1,4 +1,4 @@
-<?php include("includes/header2.php")?>
+<?php include("includes/header.php")?>
 
 <body>
         <div class="container-fluid">
@@ -82,6 +82,7 @@
                                     </div>
                                     <div id="collapseOne" class="collapse show" data-parent="#accordion">
                                         <div class="card-body">
+                                            <?php $i=0?>
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
                                         </div>
                                     </div>
